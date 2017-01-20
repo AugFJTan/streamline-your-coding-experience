@@ -142,7 +142,7 @@ Go on and test the script. If there are any issues, just edit the code according
 
 ### Writing a 'compile' script
 
-In the same `bin` directory, you want to create another bash script to enable you to compile your source file. Here, we’ll name the example script below `compile`.
+In the same `bin` directory, you want to create another bash script to enable you to compile your source file. Here, we'll name the example script below `compile`.
 
 ```shell
 #!/bin/bash
