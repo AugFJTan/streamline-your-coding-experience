@@ -191,7 +191,7 @@ exit 0
 Here's what’s going on under the hood:
 * Using the same commands as we used in the `edit` script, we go to the directory containing the source files.
 * If the language specified isn't Python, proceed to the directory. If it is Python, display a message to inform the user that no files need to be compiled (since Python can be debugged at runtime)
-* Check if there is a special `compile.sh` script. If it exists, run the script. This bash script contains extra compilation commands than the usual `gcc main.c -o main`, just to make things flexible. The ‘compile.sh’ script may contain something like `gcc -std=c99 -o main main.c file1.c file2.c` to compile multiple files together with .o object files using the C99 standard.
+* Check if there is a special `compile.sh` script. If it exists, run the script. This bash script contains extra compilation commands than the usual `gcc main.c -o main`, just to make things flexible. The `compile.sh` script may contain something like `gcc -std=c99 -o main main.c file1.c file2.c` to compile multiple files together with `.o` object files using the C99 standard.
 * Declare and assign the values to two string variables for compiler and extension respectively based on language.
 * Finally compile the source file with the specified compiler and run the executable so you can test it. The `&&` between the commands ensures that if the compilation fails (i.e. there are errors in your source code) the executable won’t run.
 
