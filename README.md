@@ -24,7 +24,7 @@ mkdir bin
 
 Simple enough. If you open your file manager, you will find the directory alongside your standard `Documents`, `Pictures`, `Music`, etc. directories. It should look something like this:
 
-![Bin Directory](/images/bindir.png)
+![Bin Directory](/images/bindir.png | width=300)
 
 Any bash scripts in the `bin` directory will be accessible in other directories, allowing you to run them without having to leave the directory you are currently on. This is especially useful because it will save you on **a lot** of typing. 
 
@@ -39,12 +39,12 @@ echo "It works!"
 Name it whatever you want. We'll name this script `bashtest`. Before you do anything, you need to change the permissions of the bash script so you can execute it. Open your terminal, go to `bin` and type:
 
 ```shell
-chmod 755 test
+chmod 755 bashtest
 ```
 
 Go to another directory and type `bashtest`. It should display "It works!" on the terminal: 
 
-![It Works!](/images/itworks.png)
+![It Works!](/images/itworks.png | width=300)
 
 Now that's done, on to the next step!
 
@@ -58,7 +58,7 @@ If you haven't already made your files neat, I would advise doing so as arrangin
 
 Here's a look at my directory layout:
 
-![Directory Layout](/images/dirlayout.png)
+![Directory Layout](/images/dirlayout.png | width=300)
 
 ## Writing bash scripts
 
